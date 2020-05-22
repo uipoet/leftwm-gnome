@@ -4,13 +4,13 @@
 
 INSTALL = install
 DESTDIR ?= /
-PREFIX  ?= $(DESTDIR)/usr
+PREFIX  ?= $(DESTDIR)usr
 
 PATH_LEFTWM_GNOME = $(PREFIX)/bin/leftwm-gnome
 PATH_LEFTWM_GNOME_DESKTOP = $(PREFIX)/share/applications/leftwm-gnome.desktop
 PATH_LEFTWM_GNOME_SESSION = $(PREFIX)/share/gnome-session/sessions/leftwm-gnome.session
 PATH_LEFTWM_GNOME_XSESSION = $(PREFIX)/share/xsessions/leftwm-gnome.desktop
-PATH_GNOME_SESSION_LEFTWM = $(PREFIX)/bin/gnome-sessionleftwm-
+PATH_GNOME_SESSION_LEFTWM = $(PREFIX)/bin/gnome-session-leftwm
 
 #
 # Targets
